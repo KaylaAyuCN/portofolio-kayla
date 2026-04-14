@@ -1,0 +1,211 @@
+<!doctype html>
+<html lang="id">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Kayla Ayu Cahya Ningrum — Portofolio</title>
+  <meta name="description" content="Portofolio Kayla Ayu Cahya Ningrum — Mahasiswa Sistem Informasi dan Digital Marketing Enthusiast dari Cilacap." />
+  <meta property="og:title" content="Kayla Ayu Cahya Ningrum — Portofolio" />
+  <meta property="og:description" content="Mahasiswa Sistem Informasi yang menggabungkan dasar pemasaran dan kemampuan teknologi untuk fokus pada digital marketing." />
+  <meta property="og:type" content="website" />
+  <meta name="author" content="Kayla Ayu Cahya Ningrum" />
+  <style>
+    :root{
+      --bg:#f7f9fc;
+      --card:#ffffff;
+      --accent:#0066cc;
+      --muted:#6b7280;
+      --radius:12px;
+      --max-width:900px;
+      font-family: Inter, ui-sans-serif, system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial;
+      color:#0f172a;
+    }
+    *{box-sizing:border-box}
+    body{
+      margin:0; background:var(--bg); color:var(--text,#0f172a);
+      -webkit-font-smoothing:antialiased; -moz-osx-font-smoothing:grayscale;
+      line-height:1.45;
+    }
+    .container{
+      max-width:var(--max-width);
+      margin:32px auto;
+      padding:24px;
+    }
+    header{
+      display:flex; gap:20px; align-items:center;
+      margin-bottom:20px;
+    }
+    .avatar{
+      min-width:96px; min-height:96px;
+      width:96px; height:96px;
+      border-radius:14px; background:linear-gradient(135deg,#e6f0ff,#fff);
+      display:flex; align-items:center; justify-content:center; font-weight:700;
+      color:var(--accent); font-size:28px; box-shadow:0 6px 18px rgba(12, 30, 90, 0.06);
+    }
+    h1{margin:0;font-size:22px}
+    .subtitle{color:var(--muted); margin-top:6px}
+    .top-right{margin-left:auto; text-align:right}
+    .card{
+      background:var(--card); border-radius:var(--radius); padding:18px; box-shadow:0 6px 20px rgba(12,30,90,0.04);
+    }
+    .grid{
+      display:grid; gap:18px; margin-top:18px;
+      grid-template-columns: 1fr;
+    }
+    @media(min-width:880px){
+      .grid{grid-template-columns: 1fr 320px;}
+      header{align-items:flex-end}
+    }
+    section h2{
+      margin:0 0 10px 0; font-size:16px;
+    }
+    .contact a{display:inline-block; color:var(--accent); text-decoration:none; margin-right:12px}
+    .badges{display:flex; gap:8px; flex-wrap:wrap}
+    .badge{background:#eef6ff;color:var(--accent);padding:6px 10px;border-radius:999px;font-size:13px}
+    ul.plain{list-style:none;padding:0;margin:0}
+    .edu-item, .proj-item{margin-bottom:12px}
+    .muted{color:var(--muted)}
+    .actions{display:flex; gap:10px; margin-top:12px}
+    .btn{
+      display:inline-flex; align-items:center; gap:8px; padding:8px 12px; border-radius:10px; border:0; cursor:pointer;
+      font-weight:600; background:var(--accent); color:#fff; text-decoration:none;
+    }
+    .btn.secondary{background:#eef2f7;color:var(--accent); font-weight:600}
+    footer{margin-top:26px; color:var(--muted); font-size:13px; text-align:center}
+    /* simple project card */
+    .proj{
+      border:1px solid #f0f3f7; padding:12px; border-radius:10px; background:linear-gradient(180deg,#fff,#fbfdff);
+    }
+    .kicker{font-size:13px;color:var(--muted); margin-bottom:6px}
+    .print-hide{display:inline-block}
+    @media print{
+      body{background:#fff}
+      .print-hide{display:none}
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <header>
+      <div style="display:flex; gap:14px; align-items:center">
+        <div class="avatar" aria-hidden="true">KA</div>
+        <div>
+          <h1>Kayla Ayu Cahya Ningrum</h1>
+          <div class="subtitle">Mahasiswa Sistem Informasi • Digital Marketing Enthusiast</div>
+          <div class="muted" style="margin-top:8px">Cilacap, Jawa Tengah</div>
+        </div>
+      </div>
+
+      <div class="top-right">
+        <div class="card contact" style="min-width:240px">
+          <div style="font-weight:700">Kontak</div>
+          <div class="muted" style="margin-top:6px">
+            <div>Email: <a href="mailto:kaylaayucn07@gmail.com">kaylaayucn07@gmail.com</a></div>
+            <div>Tel: <a href="tel:+6285713409052">0857-1340-9052</a></div>
+            <div style="margin-top:6px"><a href="https://www.instagram.com/kayla.aycn?igsh=MXdxOGRxOTNtNDBheQ==" target="_blank" rel="noopener">Instagram @kayla.aycn</a></div>
+          </div>
+          <div class="actions" style="margin-top:12px">
+            <a class="btn" href="mailto:kaylaayucn07@gmail.com">Hubungi</a>
+            <a class="btn secondary" href="#" onclick="window.print();return false;">Cetak / Unduh</a>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <div class="grid">
+      <main>
+        <section class="card" aria-labelledby="about-heading">
+          <h2 id="about-heading">Tentang Saya</h2>
+          <p class="muted">
+            Saya lulusan SMK Komputama Majenang jurusan Pemasaran (Lulus 2025). Pendidikan pemasaran memberi dasar kuat dalam memahami strategi bisnis, promosi, dan kebutuhan konsumen.
+            Saat ini saya melanjutkan studi di jurusan Sistem Informasi, Universitas Komputama (Semester 2, 2025) untuk memperdalam kemampuan di bidang teknologi seperti pemrograman, analisis sistem, dan pengolahan data.
+            Kombinasi pemasaran dan teknologi menjadi dasar minat saya di bidang digital marketing.
+          </p>
+        </section>
+
+        <section class="card" aria-labelledby="projects-heading" style="margin-top:16px">
+          <h2 id="projects-heading">Proyek & Kegiatan</h2>
+
+          <!-- Template project items: edit/update or add more -->
+          <div class="proj-item proj">
+            <div class="kicker">Contoh / Template</div>
+            <div style="font-weight:700">Judul Proyek / Kegiatan</div>
+            <div class="muted" style="font-size:13px;margin-top:6px">Peran • Tahun</div>
+            <p style="margin-top:8px" class="muted">Deskripsi singkat tentang tujuan proyek, kontribusi yang Anda lakukan, dan hasil (angka jika ada). Ganti konten ini dengan proyek nyata Anda.</p>
+          </div>
+
+          <div style="margin-top:12px" class="muted">Untuk menambahkan proyek nyata: edit bagian ini — tuliskan judul, peran, tahun, deskripsi dan link (jika ada).</div>
+        </section>
+
+        <section class="card" aria-labelledby="education-heading" style="margin-top:16px">
+          <h2 id="education-heading">Pendidikan</h2>
+          <ul class="plain">
+            <li class="edu-item">
+              <div style="font-weight:700">Universitas Komputama Cilacap — Sistem Informasi</div>
+              <div class="muted">2025 — Sekarang (Semester 2)</div>
+            </li>
+            <li class="edu-item" style="margin-top:8px">
+              <div style="font-weight:700">SMK Komputama Majenang — Pemasaran</div>
+              <div class="muted">Lulus 2025</div>
+            </li>
+          </ul>
+        </section>
+
+        <section class="card" aria-labelledby="skills-heading" style="margin-top:16px">
+          <h2 id="skills-heading">Keahlian</h2>
+          <div class="badges" style="margin-bottom:10px">
+            <div class="badge">Microsoft Word</div>
+            <div class="badge">Microsoft Excel</div>
+            <div class="badge">Digital Marketing</div>
+            <div class="badge">SEO (Basic)</div>
+            <div class="badge">Analisis Sistem (Dasar)</div>
+            <div class="badge">Pemrograman (Dasar)</div>
+          </div>
+          <div class="muted" style="font-size:14px">
+            Keterangan: Microsoft Office (Word & Excel) untuk pengolahan dokumen dan analisis data sederhana.
+            Sedang mempelajari pemrograman, analisis sistem, dan pengolahan data untuk mendukung pekerjaan di digital marketing.
+          </div>
+        </section>
+
+        <section class="card" aria-labelledby="more-heading" style="margin-top:16px">
+          <h2 id="more-heading">Lainnya</h2>
+          <div class="muted">
+            Sertifikat / Pelatihan: (kosong) — tambahkan jika ada.<br>
+            Kegiatan organisasi / volunteer: (kosong) — tambahkan jika pernah mengikuti (nama organisasi, jabatan, periode, pencapaian).
+          </div>
+        </section>
+      </main>
+
+      <aside>
+        <div class="card" style="position:sticky; top:24px">
+          <h2>Ringkasan Cepat</h2>
+          <div class="kicker">Profil</div>
+          <div style="font-size:14px" class="muted">
+            Lulusan SMK Pemasaran + Mahasiswa Sistem Informasi. Fokus pada penerapan data dan strategi kreatif untuk kampanye digital.
+          </div>
+
+          <h2 style="margin-top:12px">Kontak</h2>
+          <div class="muted" style="font-size:14px">
+            Email: <a href="mailto:kaylaayucn07@gmail.com">kaylaayucn07@gmail.com</a><br>
+            Tel: <a href="tel:+6285713409052">0857-1340-9052</a><br>
+            Instagram: <a href="https://www.instagram.com/kayla.aycn?igsh=MXdxOGRxOTNtNDBheQ==" target="_blank" rel="noopener">@kayla.aycn</a>
+          </div>
+
+          <h2 style="margin-top:12px">Download & Print</h2>
+          <div class="muted" style="font-size:14px">
+            Gunakan tombol "Cetak / Unduh" di atas untuk menyimpan versi PDF lewat fungsionalitas browser atau hubungi saya untuk pembuatan CV PDF.
+          </div>
+        </div>
+      </aside>
+    </div>
+
+    <footer>
+      © <span id="year"></span> Kayla Ayu Cahya Ningrum — dibuat menggunakan template portofolio sederhana.
+    </footer>
+  </div>
+
+  <script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
